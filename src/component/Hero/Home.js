@@ -12,12 +12,12 @@ const Home = () => {
       <section className="hero" id="home">
         <div className="container f_flex top">
           <div className="left top">
-            <h3>WELCOME TO MY WORLD</h3>
+            <h3>WELCOME </h3>
             <h1>
-              Hi, Im <span>Jone Lee</span>
+              Hi, I'm <span>Tufoin Nkuo</span>
             </h1>
             <h2>
-              a
+              a Full-Stack Developer
               <span>
                 <TypeWriter
                   words={[" Professional Coder.", " Developer."]}
@@ -68,7 +68,7 @@ const Home = () => {
           </div>
           <div className="right">
             <div className="right_img">
-              <img src={hero} alt="" />
+              <img src={hero} alt="mainpicture" />
             </div>
           </div>
         </div>

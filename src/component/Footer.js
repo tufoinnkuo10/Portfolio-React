@@ -1,19 +1,24 @@
-import React from "react"
-import logo1 from "./pic/f_logo.png"
+import React from "react";
+import logo1 from "./pic/f_logo.png";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className='conatiner text-center top'>
-          <div className='img'>
-            <img src={logo1} alt='' />
-          </div>
-          <p>© 2021. All rights reserved by GorkCoder-Themes.</p>
+        <div className="container text-center top">
+          {/* <Link to="/portfolio"> */}
+            <div className="img">
+              <img src={logo1} alt="footer pic" style={{ width: "6rem" }} />
+            </div>
+          {/* </Link> */}
+          <p>
+            <a href="#contact">Feel Free to get in touch</a>{" "}
+          </p>
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
