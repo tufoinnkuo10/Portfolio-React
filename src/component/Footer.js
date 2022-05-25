@@ -1,15 +1,19 @@
 import React from "react"
 import logo1 from "./pic/f_logo.png"
+import { Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className='conatiner text-center top'>
+        <div className='container text-center top'>
+        <Link to="#portfolio">
           <div className='img'>
-            <img src={logo1} alt='' style={{width:"6rem"}} />
+            <img src={logo1} alt='footer pic' style={{width:"6rem"}}  />
+           
           </div>
-          <p>Feel free to get in touch </p>
+        </Link>
+          <p><a href='#contact'>Feel Free to get in touch</a> </p>
         </div>
       </footer>
     </>
