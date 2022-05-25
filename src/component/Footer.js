@@ -7,9 +7,9 @@ const Footer = () => {
       <footer>
         <div className='conatiner text-center top'>
           <div className='img'>
-            <img src={logo1} alt='' />
+            <img src={logo1} alt='' style={{width:"6rem"}} />
           </div>
-          <p>© 2021. All rights reserved by GorkCoder-Themes.</p>
+          <p>Feel free to get in touch </p>
         </div>
       </footer>
     </>

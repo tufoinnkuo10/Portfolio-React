@@ -2,20 +2,22 @@ import React, { useState } from "react"
 import "./header.css"
 import logo from "../pic/logo.png"
 
+
+
 const Header = () => {
-  // fixed Header
+  // my fixed Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header")
     header.classList.toggle("active", window.scrollY > 100)
   })
-  // Toogle Menu
+  // the Toogle Menu
   const [Mobile, setMobile] = useState(false)
   return (
     <>
       <header className='header'>
         <div className='container d_flex'>
-          <div className='logo'>
-            <img src={logo} alt='' />
+          <div className='logo' >
+            <img src={logo} alt='profile logo' style={{width:'3.2rem', borderBlockStyle:'dotted'}} />
           </div>
 
           <div className='navlink'>
