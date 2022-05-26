@@ -32,9 +32,9 @@ const Home = () => {
             </h2>
 
             <p>
-              I use animation as a third dimension by which to simplify
-              experiences and kuiding thro each and every interaction. I’m not
-              adding motion just to spruce things up, but doing it in ways that.
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me..
             </p>
 
             <div className="hero_btn d_flex">
@@ -60,9 +60,9 @@ const Home = () => {
                 <button className="btn_shadow">
                   <img src={skill2} alt="" />
                 </button>
-                <button className="btn_shadow">
+                {/* <button className="btn_shadow">
                   <img src={skill3} alt="" />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
