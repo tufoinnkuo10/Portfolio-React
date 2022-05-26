@@ -66,8 +66,9 @@
 .hero .right_img img {
   position: absolute;
   top: 0;
-  right: 10%;
+  right: 11%;
   width: 510px;
+  border-radius: 2rem;
 }
 @media (max-width: 768px) {
   .hero .right,
