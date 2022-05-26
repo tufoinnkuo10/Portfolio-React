@@ -4,6 +4,8 @@ import hero from "../pic/hero.png";
 import skill1 from "../pic/skill1.png";
 import skill2 from "../pic/skill2.png";
 import skill3 from "../pic/skill3.png";
+import {FaTwitter, FaLinkedin, FaGithub} from "react-icons/fa"
+
 import TypeWriter from "react-typewriter";
 
 const Home = () => {
@@ -42,13 +44,19 @@ const Home = () => {
                 <h4>FIND WITH ME</h4>
                 <div className="button">
                   <button className="btn_shadow">
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f">
+                    <FaGithub />
+                    </i>
                   </button>
                   <button className="btn_shadow">
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram">
+                    <FaLinkedin />
+                    </i>
                   </button>
                   <button className="btn_shadow">
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-linkedin-in">
+                    <FaTwitter />
+                    </i>
                   </button>
                 </div>
               </div>

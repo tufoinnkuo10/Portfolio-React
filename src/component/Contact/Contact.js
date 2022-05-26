@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import contact1 from "./contact1.jpg"
+import {FaTwitter, FaLinkedin, FaGithub} from "react-icons/fa"
 import "./Contact.css"
 
 const Contact = () => {
@@ -56,13 +57,19 @@ const Contact = () => {
                   <span>Reach me Through</span>
                   <div className='button f_flex'>
                     <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
+                      <i className='fab fa-facebook-f'>
+                      <FaGithub />
+                      </i>
                     </button>
                     <button className='btn_shadow'>
-                      <i className='fab fa-instagram'></i>
+                      <i className='fab fa-instagram'>
+                      <FaLinkedin />
+                      </i>
                     </button>
                     <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
+                      <i className='fab fa-twitter'>
+                      <FaTwitter />
+                      </i>
                     </button>
                   </div>
                 </div>
