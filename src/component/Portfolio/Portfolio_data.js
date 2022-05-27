@@ -32,7 +32,7 @@ const Portfolio_data = [
     category: "AFCON TOTAL-ENERGIES",
     totalLike: "280",
     title: "African nations information and sponsorship site",
-    image: "./image/portfolio-05.jpg",
+    image: "./image/portfolio-05.jp",
   },
   {
     id: 6,
