@@ -41,7 +41,7 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
+              <span>Tufoin - Nkuo</span>
               <h1>{props.title}</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
               <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
@@ -54,7 +54,7 @@ const Card = (props) => {
                 </button>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
-                <i class='fas fa-times'></i>
+                <i class='fas fa-times'>X</i>
               </button>
             </div>
           </div>
