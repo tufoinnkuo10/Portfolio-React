@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+// import img from './image/recovon.png'
 
 const Card = (props) => {
   const [modal, setModal] = useState(false)
@@ -16,7 +17,8 @@ const Card = (props) => {
     <>
       <div className='box btn_shadow '>
         <div className='img'>
-          <img src={props.image} alt='' onClick={toggleModal} />
+          {/* <img src={img} alt='img' onClick={toggleModal} /> */}
+          <img src={props.image} alt='img' onClick={toggleModal} />
         </div>
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
@@ -32,7 +34,7 @@ const Card = (props) => {
         </div>
       </div>
 
-      {/* Popup box */}
+      {/*the Popup box */}
       {modal && (
         <div className='modal'>
           <div onClick={toggleModal} className='overlay'></div>
@@ -43,8 +45,8 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Tufoin - Nkuo</span>
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <p>{props.describtion}</p>
+              <p>{props.describtion2}</p>
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
                   LIKE THIS <i class='far fa-thumbs-up'></i>
