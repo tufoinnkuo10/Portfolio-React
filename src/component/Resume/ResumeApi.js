@@ -11,7 +11,7 @@ const ResumeApi = [
   {
     id: 2,
     category: "education",
-    year: "Siantou university (2017- 2018) ",
+    year: "Siantou university (2016- 2018) ",
     title: "Computer science",
     desc: "Data structure, Algorithm design,  Database management system, computer vision, computer design methodology",
     rate: "3.88/4",
@@ -21,7 +21,7 @@ const ResumeApi = [
     category: "education",
     year: "University of Bamenda (2014 - 2016)",
     title: "Business and finance",
-    desc: "we studiesd......",
+    desc: " Consumers behaviour, customers black box model, financial environment, management planning, maintenance and analysis of financial records, long and short term financial activities, financial business activities, financial institutions and banking services,",
     rate: "V.Good",
   },
   {

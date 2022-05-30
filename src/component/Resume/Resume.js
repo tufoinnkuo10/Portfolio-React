@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from "react";
 import "./Resume.css";
 import ResumeApi from "./ResumeApi";
@@ -22,15 +23,17 @@ const Resume = () => {
 
               <div className="content">
                 {ResumeApi.map((val, id) => {
-                  return (
-                    <Card
-                      key={id}
-                      title={val.title}
-                      year={val.year}
-                      rate={val.rate}
-                      desc={val.desc}
-                    />
-                  );
+                  if (val.category === "education") {
+                    return (
+                      <Card
+                        key={id}
+                        title={val.title}
+                        year={val.year}
+                        rate={val.rate}
+                        desc={val.desc}
+                      />
+                    );
+                  }
                 })}
 
                 {/*<div className='box btn_shadow'>
@@ -56,15 +59,17 @@ const Resume = () => {
 
               <div className="content">
                 {ResumeApi.map((val, index) => {
-                  return (
-                    <Card
-                      key={index}
-                      title={val.title}
-                      year={val.year}
-                      rate={val.rate}
-                      desc={val.desc}
-                    />
-                  );
+                  if (val.category === "experience") {
+                    return (
+                      <Card
+                        key={index}
+                        title={val.title}
+                        year={val.year}
+                        rate={val.rate}
+                        desc={val.desc}
+                      />
+                    );
+                  }
                 })}
               </div>
             </div>
