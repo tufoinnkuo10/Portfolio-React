@@ -18,7 +18,7 @@ const Card = (props) => {
       <div className='box btn_shadow '>
         <div className='img'>
           {/* <img src={img} alt='img' onClick={toggleModal} /> */}
-          <img src={props.image} alt='img' onClick={toggleModal} />
+          <img src={"image/" + props.image} alt='img' onClick={toggleModal} />
         </div>
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
@@ -40,7 +40,7 @@ const Card = (props) => {
           <div onClick={toggleModal} className='overlay'></div>
           <div className='modal-content d_flex'>
             <div className='modal-img left'>
-              <img src={props.image} alt='' />
+              <img src={"image/" + props.image} alt='' />
             </div>
             <div className='modal-text right'>
               <span>Tufoin - Nkuo</span>
