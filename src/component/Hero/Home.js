@@ -3,8 +3,11 @@ import "./Home.css";
 import hero from "../pic/hero.png";
 import skill1 from "../pic/skill1.png";
 import skill2 from "../pic/skill2.png";
-import skill3 from "../pic/skill3.png";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+
 import TypeWriter from "react-typewriter";
+const url = "https://www.linkedin.com/in/tufoin-nkuo-3b272320b/";
+const url2 = "https://github.com/tufoinnkuo10";
 
 const Home = () => {
   return (
@@ -41,14 +44,36 @@ const Home = () => {
               <div className="col_1">
                 <h4>FIND WITH ME</h4>
                 <div className="button">
+                <a href={url2} target="_blank" rel="noopener noreferrer">
+                      <button className="btn_shadow">
+                        <i className="fab fa-facebook-f">
+                          <a
+                            href={url2}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <FaGithub />
+                          </a>
+                        </i>
+                      </button>
+                    </a>
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                      <button className="btn_shadow">
+                        <i className="fab fa-instagram">
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <FaLinkedin />
+                          </a>
+                        </i>
+                      </button>
+                    </a>
                   <button className="btn_shadow">
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button className="btn_shadow">
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                  <button className="btn_shadow">
-                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-linkedin-in">
+                      <FaTwitter />
+                    </i>
                   </button>
                 </div>
               </div>
