@@ -14,8 +14,8 @@ const Portfolio_data = [
     totalLike: "750",
     title: "Mobile app that facilitates transactions",
     image: "transaction.png",
-    describtion: "hello this is the first describtion",
-    describtion2: "hello this is the second describtion",
+    describtion: "A ruby on rails easy to use application. All your Transactions are being save for you with reminders poping up when need for any arises",
+    describtion2: "Different transactions fall under different categories making known of the user you are interacting with, his details and due date of transaction. Feel free to check it out.",
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ const Portfolio_data = [
     totalLike: "630",
     title: "Country statistics virus checker ",
     image: "proctor.png",
-    describtion: "hello this is the first describtion",
-    describtion2: "hello this is the second describtion",
+    describtion: "A React app which make use of a steady changing pandemic outbreak spread(corona virus) in countries all over the world at a particular time",
+    describtion2: "Different countries when zoomed into or focused on gives a stastics/percentage of the different number of cases available, number of solved cases and estimated mortality rate. api is updated regularly",
   },
   {
     id: 4,
@@ -32,8 +32,8 @@ const Portfolio_data = [
     totalLike: "360",
     title: "Restaurant site ",
     image: "kitchen.png",
-    describtion: "hello this is the first describtion",
-    describtion2: "hello this is the second describtion",
+    describtion: "Best food site is a simple user friendly food/restaurant center made easy for customer to access the different varities of dishes available on the menu.",
+    describtion2: "Customers can check what will be available on the menu anyday and place a command. Also, customers with special orders can do this still on the site and it will be considered and a comfirmation sent to the customer.",
   },
   {
     id: 5,
@@ -41,8 +41,8 @@ const Portfolio_data = [
     totalLike: "280",
     title: "African nations information and sponsorship site",
     image: "Afcon.png",
-    describtion: "hello this is the first describtion",
-    describtion2: "hello this is the second describtion",
+    describtion: "The 2022 African Total Energies Cup (AFCON) platform. It give a vivid description of the competition, participants, sponsors etc.",
+    describtion2: "It gives a clear description of the different speakers, what they said. Also, how the sponsors contributed to it. Information about the Host county, their trophies and their overall football competition ranking.",
   },
   {
     id: 6,
@@ -50,8 +50,8 @@ const Portfolio_data = [
     totalLike: "690",
     title: "Missions and targets of different categories",
     image: "rockets.png",
-    describtion: "hello this is the first describtion",
-    describtion2: "hello this is the second describtion",
+    describtion: "A React application concerning scheduled program rockets to be launched. They have different missions for follow and on time thus need to be followed as such.",
+    describtion2: "Rockets and missions are gotten from a steady API containing Dragon and rockets to be programmed. The different missions can be cancele and rescheduled if need be.",
   },
 ]
 export default Portfolio_data
