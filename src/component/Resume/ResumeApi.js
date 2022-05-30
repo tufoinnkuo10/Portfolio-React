@@ -5,7 +5,7 @@ const ResumeApi = [
     category: "education",
     year: "Microverse software Bootcamp (may.2021 - may.2022) ",
     title: "Fullstack developer",
-    desc: "Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Html, CSS, Saas, Bootstrap, Ruby, Rails, JavaScript, React, and Redux",
+    desc: "Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Html, CSS, Saas, Bootstrap, Ruby, Rails, JavaScript, React, and Redux .. python(self thought)",
     rate: "4.80/5 ",
   },
   {
