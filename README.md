@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-## click here to check it out ::: [Portfolio preview]([http://localhost:3000](https://6294dc1227be7e3e3ef7a52a--tufoin-nkuo-1217d7.netlify.app/))
+## [Portfolio preview](http://localhost:3000](https://6294dc1227be7e3e3ef7a52a--tufoin-nkuo-1217d7.netlify.app/)
 
 
 In the project directory, you can run:
