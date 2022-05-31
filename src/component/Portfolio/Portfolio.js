@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className="container">
           <div className="heading text-center ">
             <h4>CHECKOUT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Portfolio(still building this portfolio)</h1>
+            <h1>My Portfolio(working on mobile version)</h1>
           </div>
 
           <div className="content grid">
