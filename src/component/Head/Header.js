@@ -17,7 +17,7 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo' >
-            <img src={logo} alt='profile logo' style={{width:'3.2rem', borderBlockStyle:'dotted'}} />
+            <img className="headpic" src={logo} alt='profile logo' style={{width:'3.2rem', borderBlockStyle:'dotted'}} />
           </div>
 
           <div className='navlink'>
