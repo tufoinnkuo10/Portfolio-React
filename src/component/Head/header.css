@@ -74,8 +74,8 @@ header ul li a:hover {
     line-height: 70px;
   }
   header .link {
-    display: none;
   }
+  
   .close,
   .open {
     position: absolute;
