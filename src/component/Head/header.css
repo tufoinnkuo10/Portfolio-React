@@ -73,9 +73,9 @@ header ul li a:hover {
     text-transform: uppercase;
     line-height: 70px;
   }
-  header .link {
+  header .hh {
+    display: none;
   }
-  
   .close,
   .open {
     position: absolute;
