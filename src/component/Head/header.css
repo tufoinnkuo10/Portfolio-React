@@ -17,6 +17,9 @@ header ul li a {
 header ul li a:hover {
   color: #ff014f;
 }
+.headpic {
+  border-radius: 2rem;
+}
 .home-btn {
   padding: 18px 25px;
   border-radius: 6px;
@@ -73,7 +76,7 @@ header ul li a:hover {
     text-transform: uppercase;
     line-height: 70px;
   }
-  header .link {
+  header .hh {
     display: none;
   }
   .close,

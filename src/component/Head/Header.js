@@ -17,13 +17,13 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo' >
-            <img src={logo} alt='profile logo' style={{width:'3.2rem', borderBlockStyle:'dotted'}} />
+            <img className="headpic" src={logo} alt='profile logo' style={{width:'3.2rem', borderBlockStyle:'dotted'}} />
           </div>
 
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
-              <li>
+              <li className="hh">
                 <a href='#home'>home</a>
               </li>
               {/* <li>

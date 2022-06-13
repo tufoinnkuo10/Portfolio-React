@@ -104,7 +104,7 @@ const Contact = () => {
               <form onSubmit={formSubmit}>
                 <div className="f_flex">
                   <div className="input row">
-                    <span>YOUR NAME</span>
+                    <span>YOUR NAME :</span>
                     <input
                       type="text"
                       name="fullname"
@@ -113,7 +113,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="input row">
-                    <span>PHONE NUMBER </span>
+                    <span>PHONE NUMBER : </span>
                     <input
                       type="number"
                       name="phone"
@@ -123,7 +123,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="input">
-                  <span>EMAIL </span>
+                  <span>EMAIL : </span>
                   <input
                     type="email"
                     name="email"
@@ -132,7 +132,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="input">
-                  <span>SUBJECT </span>
+                  <span>SUBJECT : </span>
                   <input
                     type="text"
                     name="subject"
@@ -141,7 +141,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="input">
-                  <span>YOUR MESSAGE </span>
+                  <span>YOUR MESSAGE : </span>
                   <textarea
                     cols="30"
                     rows="10"
@@ -151,7 +151,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <button className="btn_shadow">
-                  SEND MESSAGE <i className="fa fa-long-arrow-right"></i>
+                  SEND MESSAGE : <i className="fa fa-long-arrow-right"></i>
                 </button>
               </form>
             </div>
