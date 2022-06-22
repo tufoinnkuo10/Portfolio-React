@@ -2,7 +2,7 @@ const Portfolio_data = [
   {
     id: 1,
     category: "Recovon",
-    totalLike: "83",
+    // totalLike: "83",
     prolink: "https://recovon.netlify.app/",
     title: "Online Appointments with different Doctors",
     image: "recovon.png",
@@ -12,7 +12,7 @@ const Portfolio_data = [
   {
     id: 2,
     category: "TRANSACTION APPLICATION",
-    totalLike: "750",
+    // totalLike: "750",
     prolink: "https://my-transaction-app.herokuapp.com/users/sign_in",
     title: "Mobile app that facilitates transactions",
     image: "transaction.png",
@@ -22,7 +22,7 @@ const Portfolio_data = [
   {
     id: 3,
     category: "PANDEMIC PROCTOR",
-    totalLike: "630",
+    // totalLike: "630",
     prolink: "https://github.com/tufoinnkuo10/Pandemic-Proctor",
     title: "Country statistics virus checker ",
     image: "proctor.png",
@@ -32,7 +32,7 @@ const Portfolio_data = [
   {
     id: 4,
     category: "BEST FOODS",
-    totalLike: "360",
+    // totalLike: "360",
     prolink: "https://tufoinnkuo10.github.io/Restaurant/",
     title: "Mr Delicious ",
     image: "kitchen.png",
@@ -42,7 +42,7 @@ const Portfolio_data = [
   {
     id: 5,
     category: "AFCON TOTAL-ENERGIES",
-    totalLike: "280",
+    // totalLike: "280",
     prolink: "https://tufoinnkuo10.github.io/Capstone-1/",
     title: "African nations information and sponsorship site",
     image: "Afcon.png",
@@ -52,7 +52,7 @@ const Portfolio_data = [
   {
     id: 6,
     category: "API ROCKET LAUNCHER",
-    totalLike: "690",
+    // totalLike: "690",
     prolink: "https://space-ships-and-missions.netlify.app/",
     title: "Missions and targets of different categories",
     image: "rockets.png",
