@@ -71,6 +71,10 @@
   border-radius: 2rem;
 }
 @media (max-width: 768px) {
+  .hero .right_img img {
+    right: 13%;
+  }
+
   .hero .right,
   .hero .left {
     width: 100%;

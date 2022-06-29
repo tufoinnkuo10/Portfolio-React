@@ -54,9 +54,9 @@ header ul li a:hover {
   border-radius: 1rem;
 }
 @media (max-width: 768px) {
-  header ul {
+  /* header ul {
     padding-top: 30px;
-  }
+  } */
   .nav-links-mobile {
     position: absolute;
     display: block;

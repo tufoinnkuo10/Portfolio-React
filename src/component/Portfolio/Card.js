@@ -48,10 +48,12 @@ const Card = (props) => {
               <p>{props.describtion}</p>
               <p>{props.describtion2}</p>
               <div className="button f_flex mtop">
-                <button className="btn_shadow">
-                  LIKE THIS <i class="far fa-thumbs-up"></i>
-                </button>
-                <a href={props.prolink}>
+                <a href={props.prolinkk} target="_blank" rel="noreferrer">
+                  <button className="btn_shadow">
+                    See Source <i class="far fa-thumbs-up"></i>
+                  </button>
+                </a>
+                <a href={props.prolink} target="_blank" rel="noreferrer">
                   <button className="btn_shadow">View Project</button>
                 </a>
               </div>
