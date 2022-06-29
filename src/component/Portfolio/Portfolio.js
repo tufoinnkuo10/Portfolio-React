@@ -25,6 +25,7 @@ const Portfolio = () => {
                   describtion={value.describtion}
                   describtion2={value.describtion2}
                   prolink={value.prolink}
+                  prolinkk={value.prolinkk}
                 />
               );
             })}

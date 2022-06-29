@@ -8,6 +8,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import TypeWriter from "react-typewriter";
 const url = "https://www.linkedin.com/in/tufoin-nkuo-3b272320b/";
 const url2 = "https://github.com/tufoinnkuo10";
+const url3 = "https://twitter.com/Itztenten";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <section className="hero" id="home">
         <div className="container f_flex top">
           <div className="left top">
-            <h3>WELCOME </h3>
+            {/* <h3> </h3> */}
             <h1>
               Hi, I'm <span>Tufoin Nkuo</span>
             </h1>
@@ -44,35 +45,33 @@ const Home = () => {
               <div className="col_1">
                 <h4>FIND WITH ME</h4>
                 <div className="button">
-                <a href={url2} target="_blank" rel="noopener noreferrer">
-                      <button className="btn_shadow">
-                        <i className="fab fa-facebook-f">
-                          <a
-                            href={url2}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <FaGithub />
-                          </a>
-                        </i>
-                      </button>
-                    </a>
-                    <a href={url} target="_blank" rel="noopener noreferrer">
-                      <button className="btn_shadow">
-                        <i className="fab fa-instagram">
-                          <a
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <FaLinkedin />
-                          </a>
-                        </i>
-                      </button>
-                    </a>
+                  <a href={url2} target="_blank" rel="noopener noreferrer">
+                    <button className="btn_shadow">
+                      <i className="fab fa-facebook-f">
+                        <a
+                          href={url2}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FaGithub />
+                        </a>
+                      </i>
+                    </button>
+                  </a>
+                  <a href={url} target="_blank" rel="noopener noreferrer">
+                    <button className="btn_shadow">
+                      <i className="fab fa-instagram">
+                        <a href={url} target="_blank" rel="noopener noreferrer">
+                          <FaLinkedin />
+                        </a>
+                      </i>
+                    </button>
+                  </a>
                   <button className="btn_shadow">
                     <i class="fab fa-linkedin-in">
-                      <FaTwitter />
+                      <a href={url3} target="_blank" rel="noopener noreferrer">
+                        <FaTwitter />
+                      </a>
                     </i>
                   </button>
                 </div>

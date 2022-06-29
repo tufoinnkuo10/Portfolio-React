@@ -5,6 +5,7 @@ import "./Contact.css";
 
 const url = "https://www.linkedin.com/in/tufoin-nkuo-3b272320b/";
 const url2 = "https://github.com/tufoinnkuo10";
+const url3 = "https://twitter.com/Itztenten";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -50,14 +51,15 @@ const Contact = () => {
             <div className="left">
               <div className="box box_shodow">
                 <div className="img">
-                  <img src={contact1} alt="" style={{ width: "30rem" }} />
+                  <img src={contact1} alt="" style={{ width: "22rem" }} />
                 </div>
                 <div className="details">
                   <h1>Tufoin Nkuo</h1>
                   <h2>Full-Stack developer</h2>
                   <p>
-                    I'am always interested in hearing about new projects, so if
-                    you'd like to please get in touch
+                  If you have an application you are interested in developing,
+                   a feature that you need built or a project that needs coding.
+                    I’d love to help with it
                   </p>{" "}
                   <br />
                   <p>Phone: +237 670854636</p>
@@ -91,9 +93,11 @@ const Contact = () => {
                       </button>
                     </a>
                     <button className="btn_shadow">
-                      <i className="fab fa-twitter">
+                    <i class="fab fa-linkedin-in">
+                      <a href={url3} target="_blank" rel="noopener noreferrer">
                         <FaTwitter />
-                      </i>
+                      </a>
+                    </i>
                     </button>
                   </div>
                 </div>
