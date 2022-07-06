@@ -27,7 +27,7 @@ const ResumeApi = [
   {
     id: 4,
     category: "experience",
-    year: "Technical Support Engineer (2022 - present) ",
+    year: "Technical Support Engineer (2021 - present) ",
     title: "Mentor and Code Reviewer",
     desc: "Develop code review guidelines on JavaScript, React.js/Redux, and Ruby on Rails for part-time code reviewers in a fast-paced startup, assess code clarity, style, and best practices on project PRs",
     rate: "",

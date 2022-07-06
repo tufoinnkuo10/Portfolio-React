@@ -13,12 +13,12 @@
   border: 1px solid #e3e9ed;
   background-color: #e3e9ed;
 }
-.Resume .rate .btn_shadow {
+/* .Resume .rate .btn_shadow {
   color: #ff014f;
   padding: 15px 30px;
   font-weight: bold;
   transition: 0.5s;
-}
+} */
 .Resume p {
   font-size: 18px;
   transition: 0.5s;
